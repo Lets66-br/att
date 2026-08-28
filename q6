@@ -1,0 +1,8 @@
+<?php 
+$num1 = (float) readline("Digite o primeiro número: ");
+$num2 = (float) readline("Digite o segundo numero: ");
+$num3 = (float) readline("Digite o terceiro numero: ");
+
+$media = ($num1 + $num2 + $num3) / 3;
+
+echo "A média dos números digitados é: " . $media . "\n";
