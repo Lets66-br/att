@@ -1,0 +1,9 @@
+<?php
+$numero = (float) readline("Digite um número: ");
+
+$dobro = $numero * 2;
+$triplo = $numero * 3;
+
+echo "o dobro de $numero é: $dobro\n";
+echo "o triplo de $numero é: $triplo\n";
+?>
