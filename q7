@@ -1,0 +1,7 @@
+<?php 
+$valorunitario = (float) readline("Digite o valor unitário do produto: ");
+$quantidade = (int) readline("Digite a quantidade do produto: ");
+
+$valortotal = $valorunitario * $quantidade;
+
+echo "O valor total da compra é: R$ " . number_format($valortotal, 2, ',', '.') . "\n";
