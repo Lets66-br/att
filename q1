@@ -1,0 +1,6 @@
+<?php
+
+$numero = readline("Digite um numero inteiro: ");
+echo "o valor digitado foi: $numero";
+
+?>
